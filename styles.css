@@ -1,0 +1,61 @@
+/* Basic reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding-bottom: 40px;
+}
+header {
+  background: #005f5f;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+nav {
+  background: #333;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #fff;
+  padding: 12px 18px;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  background: #444;
+}
+
+main {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+section h2 {
+  margin-bottom: 12px;
+  color: #005f5f;
+}
+ul { list-style: disc inside; }
+
+footer {
+  text-align: center;
+  padding: 16px 0;
+  background: #005f5f;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
